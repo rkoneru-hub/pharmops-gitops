@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/pharma-api-gateway
+  repository: <AWS_ACCOUNT_ID>.dkr.ecr.eu-west-2.amazonaws.com/pharma-api-gateway
   tag: latest
   pullPolicy: Always
 

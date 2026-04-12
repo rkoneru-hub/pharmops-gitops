@@ -3,7 +3,7 @@ replicaCount: 1
 fullnameOverride: api-gateway
 
 image:
-  repository: <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/api-gateway
+  repository: <AWS_ACCOUNT_ID>.dkr.ecr.eu-west-2.amazonaws.com/api-gateway
   tag: v1.0.0
   pullPolicy: Always
 
