@@ -3,7 +3,7 @@ replicaCount: 1
 fullnameOverride: api-gateway
 
 image:
-  repository: <AWS_ACCOUNT_ID>.dkr.ecr.eu-west-2.amazonaws.com/api-gateway
+  repository: 972024102569.dkr.ecr.eu-west-2.amazonaws.com/api-gateway
   tag: v1.0.0
   pullPolicy: Always
 
@@ -15,7 +15,7 @@ service:
 ingress:
   enabled: true
   className: nginx
-  host: <YOUR_ALB_HOSTNAME>
+  host: a6b326329900b4c629f38a1a3fc4c167-460a8501a89f3901.elb.eu-west-2.amazonaws.com
   path: /api
   pathType: Prefix
 
